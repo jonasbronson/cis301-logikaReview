@@ -1,0 +1,10 @@
+//Homework 6
+//4_proofA.logika
+
+//Complete the following predicate logic proof. When you finish,
+//the file should say "Logika verified".
+
+∀ n (student(n) ∨ employee(n)), ∀ n ¬employee(n) ⊢ ∀ n student(n)
+{
+
+}

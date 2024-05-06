@@ -1,0 +1,10 @@
+//1_proofA.logika
+//Homework 7
+
+//Complete the following predicate logic proof. When you finish,
+//the file should say "Logika verified".
+
+∀ x ∀ y (S(y) → P(x)) ⊢ (∃ y S(y)) → (∀ x P(x))
+{
+
+}

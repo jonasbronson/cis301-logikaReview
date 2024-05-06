@@ -1,0 +1,44 @@
+//Homework 10
+//5.logika
+
+//YOU DO THIS
+//Add logic blocks in the sumUp function and the test code
+//When you finish, the assert statement should be verified
+
+//You should not make any changes other than adding logic blocks
+
+
+import org.sireum.logika._
+
+def sumUp(n: Z): Z = {
+    l"""{
+        requires n >= 1
+        ensures result = n*(n+1)/2
+    }"""
+
+    var sum: Z = 0
+    var i: Z = 0
+
+    while (i != n) {
+	l"""{
+            invariant sum = (i * (i+1)) / 2
+            modifies sum, i
+        }"""
+
+	i = i + 1
+
+        sum = sum + i
+
+    }
+
+    return sum
+}
+
+//////////// Test code (assert should hold when you finish) /////////////
+
+var num: Z = 6
+
+val sumTo6: Z = sumUp(num)
+print("The sum from 1 up to 6 is ", sumTo6)
+
+assert(sumTo6 == 21)

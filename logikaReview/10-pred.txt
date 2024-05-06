@@ -1,0 +1,10 @@
+//2_proofB.logika
+//Homework 7
+
+//Complete the following predicate logic proof. When you finish,
+//the file should say "Logika verified".
+
+∃ x ∀ y (K(x) V M(y)) ⊢ ∀ x ∃ y (M(x) V K(y))
+{
+
+}

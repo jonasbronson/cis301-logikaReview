@@ -1,0 +1,10 @@
+//Homework 4
+//5.logika
+
+//Prove the following sequent
+//When you finish, your file should say "Logika verified"
+
+p → a ∨ b, a → d, q → ¬b, p ∧ q ⊢ d
+{
+
+}

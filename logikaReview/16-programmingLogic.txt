@@ -1,0 +1,25 @@
+//HW 9
+//4.logika
+
+//YOU DO THIS:
+//Add logic blocks so that that assert at the end holds.
+
+//Do not change anything in the program or assert.
+
+
+
+import org.sireum.logika._
+
+var start: Z = readInt("Enter a number: ")
+val startOrig: Z = start
+
+start = start * 5
+
+start = start + 10
+
+start = start / 5
+
+start = start - startOrig
+
+print("No matter what you entered, you are back to 2!")
+assert(start == 2)

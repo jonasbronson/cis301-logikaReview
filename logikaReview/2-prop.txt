@@ -1,0 +1,10 @@
+//Homework 3
+
+//Prove the following sequent using natural deduction.
+//When you are finished, your file should say "Logika verified".
+
+
+p ∨ q ∨ r ⊢ r ∨ q ∨ p
+{
+
+}

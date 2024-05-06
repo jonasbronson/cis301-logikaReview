@@ -1,0 +1,12 @@
+//Homework 4
+//7.logika
+
+/*
+Use natural deduction to prove that the following two statements are equivalent:
+    ¬(p → q)
+    p ∧ ¬q
+
+You will need to write two proofs (no truth tables). When you comment out the first
+proof, the second proof should say "Logika verified". When you comment out the second
+proof, the first proof should say "Logika verified".
+*/

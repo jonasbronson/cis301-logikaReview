@@ -1,0 +1,9 @@
+//Homework 3
+
+//Prove the following sequent using natural deduction.
+//When you are finished, your file should say "Logika verified".
+
+(a ∧ b) ∨ (b ∧ c) ⊢ (c ∨ a) ∧ b
+{
+
+}

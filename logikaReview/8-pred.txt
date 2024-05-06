@@ -1,0 +1,10 @@
+//Homework 6
+//7_proofD.logika
+
+//Complete the following predicate logic proof. When you finish,
+//the file should say "Logika verified".
+
+∀ x (student(x) → csharp(x)), ∃ x ¬csharp(x) ⊢ ∃ x ¬student(x)
+{
+
+}
